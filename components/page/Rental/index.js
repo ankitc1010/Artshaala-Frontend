@@ -10,14 +10,17 @@ class Rental extends React.Component {
     render() {
       return (
         <div >
-         <Body className="wrapper">
+          <Body className="wrapper">
+          <meta charset="UTF-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
           <header>
            <img src={logo}/>
           </header>
             <nav>
                 <Nav/>
             </nav>
-            <section>
+            <section className="main-section">
                <div className="SectionA">
                    <h1>
                     Rental
