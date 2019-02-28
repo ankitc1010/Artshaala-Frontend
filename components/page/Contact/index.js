@@ -72,15 +72,17 @@ class Contact extends Component {
 
               <h2>Phone</h2>
               <h4>
-                <span className="glyphicon glyphicon-earphone" />
-                <a href="tel:8041145509">(+91) 80 41145509</a>/
-                <a href="tel:7338040655">(+91) 73380 40655</a>
+                <a href="tel:8041145509">
+                  <span className="glyphicon glyphicon-earphone" />
+                  (+91) 80 41145509
+                </a>
+                /<a href="tel:7338040655">(+91) 73380 40655</a>
               </h4>
               <br />
-
               <h2>Email</h2>
               <h4>
                 <a href="mailto:artshaalamusicstore@gmail.com">
+                  <span className="glyphicon glyphicon-envelope" />
                   artshaalamusicstore@gmail.com
                 </a>
               </h4>

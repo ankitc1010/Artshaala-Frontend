@@ -6,9 +6,21 @@ import styled from "styled-components";
 		font-family: 'Monoton', cursive;*/
 
 const Styling = styled.div`
-  #main {
-    width: 100%;
-    height: 100%;
+  @media (min-width: 1024px) {
+    #main > div:first-child {
+    }
+
+    #main > div:nth-child(2) h1 {
+      font-size: 55px;
+    }
+
+    #main > div:nth-child(2) p {
+      font-size: 30px;
+    }
+    #main > div:nth-child(2) h1:before,
+    #main > div:nth-child(2) h1:after {
+      width: 32%;
+    }
   }
 
   @media (min-width: 768px) {
@@ -26,22 +38,23 @@ const Styling = styled.div`
       margin-left: 5%;
       width: 40%;
     }
-    #main > div:nth-child(2) h1 {
-      font-size: 4vmax;
-    }
     #main > div:nth-child(2) h1:before,
     #main > div:nth-child(2) h1:after {
-      width: 36%;
-    }
-    #main > div:nth-child(2) p {
-      font-size: 20px;
+      width: 30%;
     }
     form p {
       font-size: 40px;
     }
+    #main > div:nth-child(2) h1 {
+      font-size: 50px;
+    }
+
+    #main > div:nth-child(2) p {
+      font-size: 25px;
+    }
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 310px) and (max-width: 768px) {
     #main > div:nth-child(3) > div:first-child {
       width: 80%;
       margin-left: 10%;
@@ -51,14 +64,14 @@ const Styling = styled.div`
       width: 80%;
     }
     #main > div:nth-child(2) h1 {
-      font-size: 35px;
+      font-size: 4.3vmax;
     }
     #main > div:nth-child(2) h1:before,
     #main > div:nth-child(2) h1:after {
-      width: 27%;
+      width: 22%;
     }
     #main > div:nth-child(2) p {
-      font-size: 2.5vmax;
+      font-size: 2.7vmax;
     }
     form p {
       font-size: 30px;
@@ -74,16 +87,15 @@ const Styling = styled.div`
     }
   }
 
-  @media (max-width: 480px) {
-    #main > div:nth-child(2) h1:before,
-    #main > div:nth-child(2) h1:after {
-      width: 15%;
-    }
+  #main {
+    width: 100%;
+    height: 100%;
   }
 
   #main > div:first-child {
     width: 100%;
     height: 400px;
+    background-color: rgba(180, 180, 180, 0.3);
   }
 
   #main > div:nth-child(2) {
@@ -98,6 +110,7 @@ const Styling = styled.div`
     color: #f7bb2f;
     padding-left: 7%;
     padding-right: 7%;
+    /*font-family: "Montserrat", sans-serif;*/
     font-family: "Patua One", cursive;
   }
 
@@ -124,7 +137,6 @@ const Styling = styled.div`
     padding-top: 20px;
     padding-left: 9%;
     padding-right: 9%;
-
     color: rgb(60, 60, 60);
     font-family: "Abel", sans-serif;
   }
@@ -133,9 +145,10 @@ const Styling = styled.div`
     margin-top: 60px;
   }
 
+  /*style for the form*/
+
   form > p {
     color: rgb(60, 60, 60);
-
     margin-bottom: 30px;
     font-family: "Montserrat", sans-serif;
   }
@@ -173,6 +186,8 @@ const Styling = styled.div`
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  /*style for the address area*/
 
   .address {
     margin-top: 40px;
