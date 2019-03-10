@@ -1,6 +1,8 @@
 import sc from 'styled-components';
 
+
 const Body = sc.body`
+
 .main{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -21,9 +23,9 @@ const Body = sc.body`
 }
 .myButton{
     background-color:#F7BB2F;
-	-moz-border-radius:30px;
-	-webkit-border-radius:30px;
-	border-radius:30px;
+	// -moz-border-radius:30px;
+	// -webkit-border-radius:30px;
+	// border-radius:30px;
 	border:2px solid #000000;
 	display:inline-block;
 	cursor:pointer;
@@ -57,6 +59,7 @@ const Body = sc.body`
     grid-template-areas:'specs';
     justify-items:left;
     padding-left:50px;
+}
   h2{
     padding-top:100px;
     padding-left:38px;
@@ -64,10 +67,10 @@ const Body = sc.body`
     font: 2.2em "Fira Sans", sans-serif;
   }
   li{
-    font: 1.5rem fantasy;
+    font: 1.5rem "Fira Sans", sans-serif;
     list-style-type: none;
   }
 }
 `;
 
-export default Body;
+export default Body ;

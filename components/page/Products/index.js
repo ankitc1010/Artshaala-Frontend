@@ -2,6 +2,8 @@ import React,{Component} from 'react';
 import Nav from '../../Navbar';
 import Body from './style';
 import Footer from '../../Footer';
+import ImgGal from'../../ImageGallery/indez';
+
 
 class Products extends React.Component{
     render(){
@@ -13,16 +15,16 @@ class Products extends React.Component{
          <Body>
             <div className="main">
             <div className="gallery">
-            gallery
+            <ImgGal/>
             </div>
             <div className="discription">
             <h3>
             Kadence Frontier Series Acoustic Guitar
             With Equalizer,Super Combo with Bag,
-            1 pack Strings, Strap, Picks,Capo,
+            1 pack Strings, Strap, Picks,Capo, 
             Tuner and Guitar Stand.
             </h3>
-            <span className="mon">Price:  </span> <span className="mon-num">INR 6499.00/-</span>
+            <span className="mon">Price: </span> <span className="mon-num">INR 6499.00/-</span>
             <p>
             Inclusive of all taxes  
             <br/>Pay on Delivery (Cash/Card) eligible
@@ -67,3 +69,6 @@ class Products extends React.Component{
 }
 
 export default Products;
+
+
+
