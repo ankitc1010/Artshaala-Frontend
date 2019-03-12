@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ReactSlick from './indez';
+import ReactSlick from './index';
 
- class ReactSlick extends Component {
+ class ReactSlick1 extends Component {
     render() {
         return (
    
@@ -22,4 +22,4 @@ import ReactSlick from './indez';
     }
 }
 
-export default  ReactSlick; 
+export default  ReactSlick1; 

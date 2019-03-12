@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import Nav from '../../Navbar';
 import Body from './style';
 import Footer from '../../Footer';
-import ImgGal from'../../ImageGallery/indez';
+import ImgGal from'../../ImageGallery/exportGal';
 
 
 class Products extends React.Component{
