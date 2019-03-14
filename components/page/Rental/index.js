@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import Body from './styles';
+import logo from './images/logo1.png';
 import Nav from '../../Navbar';
 import Footer from '../../Footer';
 
@@ -9,12 +10,15 @@ class Rental extends React.Component {
     render() {
       return (
         <div >
-          <Body>
+          <Body className="wrapper">
           <meta charset="UTF-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
           <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+          <header>
+           <img src={logo}/>
+          </header>
             <nav>
-                <Nav/> 
+                <Nav/>
             </nav>
             <section className="main-section">
                <div className="SectionA">
@@ -65,5 +69,5 @@ class Rental extends React.Component {
         );
     }
   }
-
+}
 export default Rental;
