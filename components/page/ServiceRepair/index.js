@@ -12,7 +12,7 @@ import five from "./imagerepair/five.jpg";
 import six from "./imagerepair/six.jpg";
 import seven from "./imagerepair/seven.jpg";
 import logo from "./imagerepair/logo1.png";
-import Modal from "./Modal/Modal";
+
 import {
   Heading,
   Paragraph,
@@ -23,15 +23,6 @@ import {
 } from "./styles";
 
 class Home extends React.Component {
-  state = {
-    show: false
-  };
-  showModal = () => {
-    this.setState({
-      ...this.state,
-      show: !this.state.show
-    });
-  };
   render() {
     return (
       <div className="App">
@@ -64,19 +55,6 @@ class Home extends React.Component {
               </li>
               <li>
                 <button onClick={this.showModal}>Log In/Sign Up</button>
-                <Modal onClose={this.showModal} show={this.state.show}>
-                  <form>
-                    <h4>Sign up here</h4>
-                    <p>enter username : </p>
-                    <input type="text" />
-                    <p>enter password : </p>
-                    <input type="password" name="password" />
-                    <p>Confirm password : </p>
-                    <input type="password" name="password" />
-                    <h4>Already a user?</h4>
-                    <button>Login</button>
-                  </form>
-                </Modal>
               </li>
               <li />
             </ul>
