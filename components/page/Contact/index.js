@@ -80,7 +80,7 @@ class Contact extends Component {
 
               <h2>Email</h2>
               <h4>
-                <a href="mailto:artshaalamusicstore@gmail.com">
+                <a href="mail-to:artshaalamusicstore@gmail.com">
                   artshaalamusicstore@gmail.com
                 </a>
               </h4>
