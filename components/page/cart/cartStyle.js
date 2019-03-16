@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Styles = styled.div`
   #mainCart {
     width: 98%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
   }
@@ -14,7 +14,7 @@ const Styles = styled.div`
   }
 
   #mainCart > div:first-child img {
-    width: 100%;
+    width: 90%;
     height: 100%;
   }
 

@@ -31,7 +31,6 @@ const Styles = styled.div`
 
     .cart > div:nth-child(2) {
       width: 16%;
-
       margin-right: 10%;
       padding: 1%;
     }
@@ -71,7 +70,7 @@ const Styles = styled.div`
     border: 1px solid rgba(180, 180, 180, 0.7);
     border-radius: 15px;
     margin-top: 50px;
-    height: 510px;
+    /*height: 300px;*/
   }
 
   .cart > div:first-child > p {

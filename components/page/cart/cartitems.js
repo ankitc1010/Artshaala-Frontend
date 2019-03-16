@@ -4,7 +4,7 @@ import Carts from "./carts";
 import styled from "styled-components";
 
 const CartWrapper = styled.div`
-  margin-top: 40px;
+  margin-top: 10px;
 `;
 
 class Cartitems extends Component {
